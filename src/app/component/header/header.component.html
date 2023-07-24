@@ -1,0 +1,23 @@
+<div class="row background align-items-center"><h4>Small World</h4></div>
+<div class="d-flex justify-content-end mt-2">
+    <div class="px-2">
+    <mat-form-field>
+        <mat-label>Agent Name</mat-label>
+        <mat-select [(ngModel)]="selectedValue" >
+          <mat-option *ngFor="let person of persons" [value]="person" >
+            {{person}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div class="px-2">
+        <mat-form-field>
+            <mat-label>Country Name</mat-label>
+            <mat-select [(ngModel)]="selectedCountry">
+              <mat-option *ngFor="let country of countries" [value]="country">
+                {{country}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+</div>

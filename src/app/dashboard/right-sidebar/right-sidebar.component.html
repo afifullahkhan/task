@@ -1,0 +1,40 @@
+<div class="shadow-sm rounded border-card p-3">
+    <h4 >Phase Result</h4>
+    <div class="row mt-2" *ngFor="let phase of [1,2,3]; let i=index">
+        <div class="d-flex justify-content-around "><p class="text-nowrap"><b>Phase #{{i+1}} results:</b></p><p>18</p></div>  
+    </div>
+
+</div>
+<div class="row mt-2">
+    
+        <mat-form-field class="example-full-width w-100 ">
+          <mat-label>Search</mat-label>
+          <span class="d-flex">
+          <input type="text" matInput placeholder="search">
+          <mat-icon >search</mat-icon>
+        </span>
+        </mat-form-field>
+    
+</div>
+
+<div class="row mt-2">
+    <mat-card class="example-card gradient-card">
+        <mat-card-content>
+          <mat-progress-spinner
+              class="margin-spinner"
+              [color]="color"
+              [mode]="mode"
+              [value]="value">
+          </mat-progress-spinner>
+
+          <h4 class="font-weight-bold mt-2">Hello World</h4>
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct
+            spitz breeds of dog from Japan. A small, agile dog that copes very
+            well with mountainous terrain, the Shiba Inu was originally bred
+            for hunting.
+          </p>
+          <div class="avatar-print shadow p-2" style="float: right;"><mat-icon>fingerprint</mat-icon></div>
+        </mat-card-content>
+      </mat-card>
+</div>

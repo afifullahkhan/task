@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+.danger-icn{
+    color: red !important;
+    }
+    .card-header {
+        padding: 0.75rem 1.25rem;
+        margin-bottom: 0;
+        background-color: #fff;
+        border-bottom: 1px solid #eeeeee; }
+        .card-header:first-child {
+          border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0; }
+        .card-header + .list-group .list-group-item:first-child {
+          border-top: 0; }
+    html, body { height: 100%; }
+    body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+    .avatar {
+      vertical-align: middle;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+    }
+    .avatar-print {
+      vertical-align: middle;
+      width: 41px;
+      height: 41px;
+      border-radius: 50%;
+      background: #ffe52c;
+    }

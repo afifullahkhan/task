@@ -1,0 +1,15 @@
+.example-card {
+    max-width: 260px;
+  }
+
+  .width{
+    width: 100%;
+  }
+  .card-header-font{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+  }
+  
+
+ 

@@ -1,0 +1,18 @@
+.border-card{
+    border: #e0e0e0 solid 1px
+  }
+
+  .border-card-row{
+    border-bottom: #e0e0e0 solid 1px
+  }
+
+  .flex-search{
+    display: flex !important;
+    align-items: center !important;
+  }
+  .margin-spinner {
+    margin: auto !important;
+  }
+  .gradient-card{
+      background-image: linear-gradient( rgba(96, 219, 65, 0.89),rgb(50, 211, 45));
+  }

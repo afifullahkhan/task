@@ -1,0 +1,10 @@
+<app-header></app-header>
+<mat-drawer-container class="example-container">
+    <mat-drawer mode="side" opened>
+        <ul class="px-3 list" *ngFor="let menuItem of menuItems">
+            <li class="d-flex align-items-center"><mat-icon aria-hidden="false" aria-label="Example home icon" >{{menuItem.icon}}</mat-icon><span class="ps-2">{{menuItem.title}}</span> </li>
+        </ul>
+    </mat-drawer>
+    
+    <mat-drawer-content class="p-3" ><app-dashboard></app-dashboard></mat-drawer-content>
+  </mat-drawer-container>
